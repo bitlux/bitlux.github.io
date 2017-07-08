@@ -1,0 +1,123 @@
+html, body, div, h1, h3, ul, ol, li, p, table, th, td { margin: 0; padding: 0; }
+body {
+  font: 95% Helvetica, sans-serif;
+  line-height: 1.3;
+  letter-spacing: .05em;
+  color: #aaa;
+  background-color: #303030;
+}
+
+#container {
+  width: 60em;
+  margin: 2em auto;
+}
+
+/*** navbar ***/
+#titlenav {
+  border-bottom: thin solid white;
+}
+
+#titlenav img {
+  float: left;
+  padding: 0 1em 0em 1.5em;
+}
+
+#titlenav ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+#titlenav ul li {
+  float: left;
+  border: thin solid white;
+  border-bottom: none;
+  margin: 2.3em .4em 0;
+}
+
+#titlenav ul li a, span.current {
+  display: block;
+  padding: .4em 0em;
+  width: 7em;
+  text-align: center;
+  color: #eee;
+}
+span.current { background-color: #888; }
+
+#titlenav ul li a {
+  background-color: #222;
+  text-decoration: none;
+}
+#titlenav a:hover { background-color: #555; }
+/*** end navbar ***/
+
+/*** main div ***/
+#content {
+  padding: .5em 2em;
+  clear: both;
+}
+
+/*** photos ***/
+.gallery {
+  margin: auto;
+  width: 100%;
+}
+
+.gallery td {
+  width: 25%;
+  padding: 1em 0;
+  text-align: center;
+}
+.sub { border-top: thin solid white; }
+.gallery img { cursor: pointer; }
+
+/*** contact ***/
+.contact {
+  margin-top: 1em;
+  float: left;
+}
+
+.contact p {
+  padding: 1.5em 0 0 2em;
+}
+
+/*** elements ***/
+p { padding-top: 1em; }
+p.header { font-weight: bold; letter-spacing: .07em; font-size: 120%; color: #ddd; }
+img.header { padding-top: 1.5em; }
+
+/*** links ***/
+a:link, a:active { color: #ddd; }
+a:visited { color: #aaa; }
+a:hover { color: #fff; }
+/* 60a5ff */
+
+/*** overlay ***/
+#blackbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1001;
+}
+
+#photobox { /* table */
+  margin-top: 1em;
+  width: 100%;
+  vertical-align: center;
+  text-align: center;
+}
+
+#go_left, #go_right {
+  width: 5%;
+  font-size: 200%;
+  cursor: pointer;
+}
+
+#the_img {
+  max-width: 90%;
+  border: 12px solid black;
+  cursor: pointer;
+}

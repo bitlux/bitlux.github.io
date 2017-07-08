@@ -1,2 +1,135 @@
-hi
-trst
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>photography :: bitlux.org</title>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="script.js"></script>
+    <script>
+      var images = [ 
+
+      '11675', '11273', '11250', '10621', '10607', '9499', '9073',
+      '8868', '8516', '8386', '8382', '7448', '7447', '5171', '3537',
+      '3172', '3167', '2905', '0215',
+
+      '10313', '10183', '8665', '8572', '8437', '8424', '8218',
+      '7144', '6384', '6374', '3060',
+
+      '9316', '9312', '9285', '9167', '5569', '3548'
+
+      ];
+
+      $(document).ready(function() {
+        if (location.hash.match(/#\d+/)) {
+          show(location.hash.substring(1), 'photos/');
+        }
+      });
+    </script>
+  </head>
+  <body onKeyUp="keyPress(event)">
+    <div id="blackbox">
+      <table id="photobox">
+	<tr>
+	  <td>
+	  <td rowspan="2"><img id="the_img" onClick="javascript:hide()">
+	  <td><img src="imgs/x.png" alt="X" onClick="javascript:hide()">
+	</tr>
+	<tr>
+	  <td id="go_left" onClick="javascript:swapPhoto(-1);">
+	    <img src="imgs/left-arrow.png" alt="&lt;">
+	  <td id="go_right" onClick="javascript:swapPhoto(1);">
+	    <img src="imgs/right-arrow.png" alt="&gt;">
+	</tr>
+	<tr>
+	  <td><td><td>
+	</tr>
+      </table>
+    </div>
+
+    <div id="container">
+      <div id="titlenav">
+	<img src="imgs/name.png" alt="Adam Bender">
+	<ul>
+	  <li><span class="current">photography</span></li>
+	  <li><a href="papers.html">research</a></li>
+	  <li><a href="contact.html">contact</a></li>
+	</ul>
+      </div>
+
+      <div id="content">
+	<table class="gallery">
+	  <tr>
+	    <td><img src="thumbs/11675.png" onClick="javascript:show('11675')">
+	    <td><img src="thumbs/11273.png" onClick="javascript:show('11273')">
+	    <td><img src="thumbs/11250.png" onClick="javascript:show('11250')">
+	    <td><img src="thumbs/10621.png" onClick="javascript:show('10621')">
+	  </tr>
+	  <tr>
+	    <td><img src="thumbs/10607.png" onClick="javascript:show('10607')">
+	    <td><img src="thumbs/9499.png" onClick="javascript:show('9499')">
+	    <td><img src="thumbs/9073.png" onClick="javascript:show('9073')">
+	    <td><img src="thumbs/8868.png" onClick="javascript:show('8868')">
+	  </tr>
+	  <tr>
+	    <td><img src="thumbs/8516.png" onClick="javascript:show('8516')">
+	    <td><img src="thumbs/8386.png" onClick="javascript:show('8386')">
+	    <td><img src="thumbs/8382.png" onClick="javascript:show('8382')">
+	    <td><img src="thumbs/7448.png" onClick="javascript:show('7448')">
+	  </tr>
+	  <tr>
+	    <td><img src="thumbs/7447.png" onClick="javascript:show('7447')">
+	    <td><img src="thumbs/5171.png" onClick="javascript:show('5171')">
+	    <td><img src="thumbs/3537.png" onClick="javascript:show('3537')">
+	    <td><img src="thumbs/3172.png" onClick="javascript:show('3172')">
+	  </tr>
+	  <tr>
+	    <td><img src="thumbs/3167.png" onClick="javascript:show('3167')">
+	    <td><img src="thumbs/2905.png" onClick="javascript:show('2905')">
+	    <td><img src="thumbs/0215.png" onClick="javascript:show('0215')">
+	    <td>
+	  </tr>
+	</table>
+
+	<img src="imgs/flora.png" class="header" alt="Flora and Fauna">
+	<table class="gallery sub">
+	  <tr class="section-first">
+	    <td><img src="thumbs/10313.png" onClick="javascript:show('10313')">
+	    <td><img src="thumbs/10183.png" onClick="javascript:show('10183')">
+	    <td><img src="thumbs/8665.png" onClick="javascript:show('8665')">
+	    <td><img src="thumbs/8572.png" onClick="javascript:show('8572')">
+	  </tr>
+	  <tr>
+	    <td><img src="thumbs/8437.png" onClick="javascript:show('8437')">
+	    <td><img src="thumbs/8424.png" onClick="javascript:show('8424')">
+	    <td><img src="thumbs/8218.png" onClick="javascript:show('8218')">
+	    <td><img src="thumbs/7144.png" onClick="javascript:show('7144')">
+	  </tr>
+	  <tr>
+	    <td><img src="thumbs/6384.png" onClick="javascript:show('6384')">
+	    <td><img src="thumbs/6374.png" onClick="javascript:show('6374')">
+	    <td><img src="thumbs/3060.png" onClick="javascript:show('3060')">
+	    <td>
+	  </tr>
+	</table>
+
+	<img src="imgs/cp.png" class="header" alt="Central Park">
+	<table class="gallery sub">
+	  <tr class="section-first">
+	    <td><img src="thumbs/9316.png" onClick="javascript:show('9316')">
+	    <td><img src="thumbs/9312.png" onClick="javascript:show('9312')">
+	    <td><img src="thumbs/9285.png" onClick="javascript:show('9285')">
+	    <td><img src="thumbs/9167.png" onClick="javascript:show('9167')">
+	  </tr>
+	  <tr>
+	    <td><img src="thumbs/5569.png" onClick="javascript:show('5569')">
+	    <td><img src="thumbs/3548.png" onClick="javascript:show('3548')">
+	    <td>
+	    <td>
+	  </tr>
+	</table>
+      </div>
+    </div>
+  </body>
+</html>
