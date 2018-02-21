@@ -15,6 +15,7 @@ body {
 /*** navbar ***/
 #titlenav {
   border-bottom: thin solid white;
+  padding-left: 35em;
 }
 
 #titlenav img {
@@ -31,7 +32,7 @@ body {
   float: left;
   border: thin solid white;
   border-bottom: none;
-  margin: 2.3em .4em 0;
+  margin: 0 .6em;
 }
 
 #titlenav ul li a, span.current {
