@@ -2,9 +2,9 @@
 
 ### Log entries
 
-| State       | Date       |
-| ----------- | ---------- |
-| California  | [2024-11-16](https://www.geocaching.com/live/log/GL1DCH4YZ) |
+| State      | Date                                                        |
+| ---------- | ----------------------------------------------------------- |
+| California | [2024-11-16](https://www.geocaching.com/live/log/GL1DCH4YZ) |
 
 ### My journey
 
@@ -23,7 +23,12 @@ finding a cache in every state, but this added an irresistible layer of
 difficulty, and a sense of organized curation, to it. I knew I had to get my
 name in the hall of fame.
 
-The replacement California cache was fortunately in the Bay Area. I made the short drive and found the cache in a beautiful park with spectacular views of the coast. A great way to start the series. I did a long loop with a brutal uphill climb on the way back. Near the paring lot, there was a medical emergency on the trail, and I actually saw a very rugged ambulance drive on the trail to transport the victim away.
+The replacement California cache was fortunately in the Bay Area. I made the
+short drive and found the cache in a beautiful park with spectacular views of
+the coast. A great way to start the series. I did a long loop with a brutal
+uphill climb on the way back. Near the paring lot, there was a medical
+emergency on the trail, and I actually saw a very rugged ambulance drive on
+the trail to transport the victim away.
 
 
 
