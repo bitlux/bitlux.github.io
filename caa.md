@@ -5,6 +5,7 @@
 | State      | Date                                                        |
 | ---------- | ----------------------------------------------------------- |
 | California | [2024-11-16](https://www.geocaching.com/live/log/GL1DCH4YZ) |
+| New Jersey | [2024-12-26](https://www.geocaching.com/live/log/GL1DGP3MN) |
 
 ### My journey
 
@@ -30,6 +31,9 @@ uphill climb on the way back. Near the paring lot, there was a medical
 emergency on the trail, and I actually saw a very rugged ambulance drive on
 the trail to transport the victim away.
 
-
-
-
+For Christmas, my family visited my sister in New York City. I knew I wouldn't
+have much time to make a long trip, and I didn't have a car of my own, so I
+only made one CAA attempt: New Jersey, which is actually the closest CAA cache
+to NYC. I made the 2.5 hour (one-way) drive in the dark, but other than some
+self-induced GPS problems, I had no issues finding the cache--even though the
+only light I had during the search was my phone's flashlight.
