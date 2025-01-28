@@ -5304,8 +5304,6 @@ get 8
 get 9
 get 10
 get 11
-get 12
-get 13
 get 14
 get 15
 get 16
