@@ -4,7 +4,7 @@ print get 2
 print get 1
 print get 3
 put 5 6
-put 5 0
+put 5 10
 print get 5
 put 16 18
 print get 2
