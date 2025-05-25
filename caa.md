@@ -103,5 +103,12 @@ However I found the container easily, took in the views from the nearby vantage
 point, and began the trek back to my car. The hike back never seems as long as
 the hike out.
 
+
+<p style="text-align: center; font-style: italic">
+![West Virgina](caches/caa/wv.jpg "West Virginia")
+<br />
+West Virginia
+</p>
+
 Four CAA caches in five days--the year is off to a great start. Can it get even
 better though?
