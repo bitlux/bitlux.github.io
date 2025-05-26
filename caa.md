@@ -105,7 +105,7 @@ the hike out.
 
 
 <p style="text-align: center; font-style: italic">
-![West Virgina](caches/caa/wv.jpg "West Virginia")
+<img src="caches/caa/wv.jpg" alt="West Virginia" title="West Virginia">
 <br />
 West Virginia
 </p>
