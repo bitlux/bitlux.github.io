@@ -35,12 +35,24 @@ uphill climb on the way back. Near the paring lot, there was a medical
 emergency on the trail, and I actually saw a very rugged ambulance drive on
 the trail to transport the victim away.
 
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/ca.png" alt="California" title="California">
+<br />
+California
+</p>
+
 For Christmas, my family visited my sister in New York City. I knew I wouldn't
 have much time to make a long trip, and I didn't have a car of my own, so I
 only made one CAA attempt: New Jersey, which is actually the closest CAA cache
 to NYC. I made the 2.5 hour (one-way) drive in the dark, but other than some
 self-induced GPS problems, I had no issues finding the cache---even though the
 only light I had during the search was my phone's flashlight.
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/nj.png" alt="New Jersey" title="New Jersey">
+<br />
+New Jersey
+</p>
 
 #### 2025
 
@@ -73,9 +85,21 @@ description mentioned, but it was not the be found. I finally used the parking
 waypoint for [GC5A05G](http://coord.info/GC5A05G) and walked the 2.5 miles round
 trip to sign the log.
 
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/de.png" alt="Delaware" title="Delaware">
+<br />
+Delaware
+</p>
+
 The next day took me through Maryland into West Virginia. The Maryland cache was
 thankfully uneventful. I was worried it would be difficult to find in the woods
 without a hint, but my GPSr was surprisingly reliable.
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/md.png" alt="Maryland" title="Maryland">
+<br />
+Maryland
+</p>
 
 After a drive through Shenandoah National Park, I continued on to Richmond for
 the Virginia cache. This was the most disappointing CAA cache I had encountered
@@ -84,8 +108,14 @@ was unfortunately ruined by the local residents. The natural beauty of the
 island and river were marred by ubiquitous graffiti. The sound of the rushing
 water was drowned out by amplified music. To top it off, the south parking
 waypoint has been turned into resident-only parking, so I needed to search for
-a place to park. I was sad that I felt I should leave uickly instead of staying
+a place to park. I was sad that I felt I should leave quickly instead of staying
 to enjoy the unique location.
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/va.png" alt="Virginia" title="Virginia">
+<br />
+Virginia
+</p>
 
 Another day, another national park, this time New River Gorge, then on to
 Morgantown. I arrived too late to go to Cooper's Rock State Forest. The next day
@@ -102,7 +132,6 @@ and even my old raincoat. This all made the hike seem much longer than it was.
 However I found the container easily, took in the views from the nearby vantage
 point, and began the trek back to my car. The hike back never seems as long as
 the hike out.
-
 
 <p style="text-align: center; font-style: italic">
 <img src="caches/caa/wv.jpg" alt="West Virginia" title="West Virginia">
