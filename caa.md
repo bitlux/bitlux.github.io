@@ -117,9 +117,11 @@ to enjoy the unique location.
 Virginia
 </p>
 
-Another day, another national park, this time New River Gorge, then on to
+All told, I drove 650 miles in two days to get MD, VA, one national park,
+and to set myself up for another national park the next day. After a few
+stops at New River Gorge NP, I continued on to
 Morgantown. I arrived too late to go to Cooper's Rock State Forest. The next day
-was very rainy, making me regret not arriving eary enough yesterday to make an
+was very rainy, making me regret not arriving early enough yesterday to make an
 attempt. I began the day by attending the pre-GeoWoodstock event in the same
 park. I ran into problems as soon as I started the hike. First, I took the wrong
 trail. I ended up on the McCollum trail, which isn't even on Google Maps. After
