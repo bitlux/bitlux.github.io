@@ -192,3 +192,6 @@ state of Ohio, was intentional.
 <br />
 Ohio
 </p>
+
+Three states, two days, 650 miles (again). Would have been nicer to get four,
+but I'm still happy.
