@@ -1,5 +1,10 @@
 # Cache Across America
 
+<p style="text-align: center">
+<img src="caches/caa/map.png" alt="Current status" title="Curent status">
+<br />
+</p>
+
 ### Log entries
 
 | State         | Date                                                        |
@@ -10,6 +15,9 @@
 | Maryland      | [2025-05-19](https://www.geocaching.com/live/log/GL1ECHQMW) |
 | Virginia      | [2025-05-20](https://www.geocaching.com/live/log/GL1ECRQBE) |
 | West Virginia | [2025-05-22](https://www.geocaching.com/live/log/GL1ED1NCN) |
+| Indiana       | [2025-07-23](https://www.geocaching.com/live/log/GL1EVJY7F) |
+| Michigan      | [2025-07-23](https://www.geocaching.com/live/log/GL1EVT11N) |
+| Ohio          | [2025-07-24](https://www.geocaching.com/live/log/GL1EVT2KX) |
 
 ### My journey
 
@@ -143,3 +151,44 @@ West Virginia
 
 Four CAA caches in five days--the year is off to a great start. Can it get even
 better though?
+
+Two months after returning from GeoWoodstock, I made plans to visit Indianapolis
+to attend the Post. music festival and see a band I had been trying to see
+perform live for ten years. After lots of route finding, I figured the best path
+was to fly into Chicago, visit Indiana Dunes NP, pick up the Indiana and
+Michigan CAA caches, and then stay with a relative in Ohio. And that's pretty
+much how the first day worked out. Indiana was a fun hide that stumped me for
+several minutes.
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/in.png" alt="Indiana" title="Indiana">
+<br />
+Indiana
+</p>
+
+Michigan was a little bit more of an adventure, since I chose to walk along the
+road to get from the parking waypoint to GZ. I had to hop a wire fence to get to
+the container. Then, staying on that side, I had to hop another wire fence to
+get back to my car. It was a very pretty sunset though.
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/mi.png" alt="Michigan" title="Michigan">
+<br />
+Michigan
+</p>
+
+I had initially planned to get Ohio and Kentucky the next day. However, I needed
+to catch up on sleep (my flight the previous day was very early) and dipping
+into Kentucky would have added 2.5 hours to the trip. I wanted to spend that
+time with relatives, and being on the road an extra 2.5 hours would put me in
+Indianapolis dangerously close to the start of the festival. I chose to skip
+Kentucky and drive straight to Indy after signing the Ohio log. I can neither
+confirm nor deny that my choice of shirt, celebrating four consecutive victories
+by the University of Michigan Wolverines football team over a university in the
+state of Ohio, was intentional.
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/oh.png" alt="Ohio" title="Ohio">
+<br />
+Ohio
+</p>
