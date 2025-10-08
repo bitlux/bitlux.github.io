@@ -9,7 +9,7 @@
       margin: 2em auto;
     }
 
-    td {
+    ttd {
       border: 2px solid #8e9492;
       padding: .3em;
     }
@@ -19,21 +19,36 @@
 </head>
 
 <body>
+  <p>
+    To jump straight to the puzzle, look for the section titled "Puzzle".
+  </p>
+
   <p style="font-size:125%;font-weight:bold;margin-bottom:8px">The Seven Bridges
     of Königsberg</p>
 
   <p>
-    Leonhard Euler (pronounced <em>oiler</em>) is considered by many people
+    Leonhard Euler (pronounced <em>oiler</em>; 1707 &ndash; 1783) is considered
+    by many people
     (include myself) to be the greatest mathematician of all time. One of the
-    most significant problems that he solved was called
-    <em><a
-        href="https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg">The
-        Seven Bridges of Königsberg</a></em>.
+    most significant problems that he solved is called
+    <a href="https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg">The
+      Seven Bridges of Königsberg</a>.
     Königsberg (now called Kaliningrad, in what is now Russia) was a city with
     seven bridges that spanned the Pregel River, connecting the two banks as
     well as two islands within the river. Denizens of the city wondered if it
     was possible to devise a walk that would cross each bridge exactly once.
   </p>
+
+  <div style="text-align: center">
+    <figure>
+      <a
+        href="https://www.scientificamerican.com/article/how-the-seven-bridges-of-koenigsberg-spawned-new-math/">
+        <img style="border: 2px solid #00ADD8" src="bridges.png"
+          title="Königsberg" />
+      </a>
+      <figcaption><em>The bridges of Königsberg</em></figcaption>
+    </figure>
+  </div>
 
   <p>
     Euler proved that no such walk was possible. He abstracted away the physical
@@ -45,9 +60,21 @@
     born.
   </p>
 
+  <div style="text-align: center">
+    <figure>
+      <img src="bridges_graph.png" title="Abstract bridges" />
+      <figcaption><em>Abstract bridges</em></figcaption>
+    </figure>
+
+    <figure>
+      <img src="kberg_graph.png" title="Königsberg as a graph" />
+      <figcaption><em>Königsberg as a graph</em></figcaption>
+    </figure>
+  </div>
+
   <p>
     Next, Euler modelled a walk across the bridges of Königsberg as a path
-    consisting of the various nodes, always following an edge to get from
+    made up of the nodes, always following an edge to get from
     one node to the next. Euler observed that whenever a walk entered a
     node via an edge, it must also leave that node via a different edge (except
     for the start and end nodes). This means that the edges must come in
@@ -55,21 +82,19 @@
     even number of edges attached to it. Because each of the four nodes in
     Königsberg have an odd number of edges, no such walk is possible. Such a
     tour that visits each edge of a graph exactly once is called an <em>Eulerian
-      tour</em> or <em>Eulerian path</em>.
+      path</em>.
   </p>
 
-  <p style="font-size:125%;font-weight:bold;margin-bottom:8px">Graphs and
-    representations</p>
+  <p style="font-size:125%;font-weight:bold;margin-bottom:8px">Graphs</p>
 
   <p>
     Mathematically speaking, a graph is a set of objects, represented as nodes
     (also called vertices), where some pairs of objects are related in some
-    sense. These relations are represented as edges between the nodes. A graph
-    is defined by its set of nodes and set of edges.
+    sense. These relations are represented as edges between the nodes.
   </p>
 
   <p>
-    Graphs are often representations of networks in the real world. Mapping and
+    Graphs are used to represent things in the real world. Mapping and
     route-finding software represents roads as edges that connect intersections.
     Social scientists study the <em>friend graph</em> of social networks, both
     in real life and on sites like Facebook, where nodes are people and edges
@@ -77,92 +102,221 @@
   </p>
 
   <p>
-    The graph of Königsberg is a generalized type of graph called a
-    <em>multigraph</em>, because it has multiple connections between some nodes.
-    The rest of this desctiption will focus on <em>simple graphs</em>, which
-    have at most one edge between any two nodes.
+    The graph of Königsberg is unusual in that some nodes have multiple edges
+    between them. Such a graph is called a <em>multigraph</em>. Most graph
+    theory, and the rest of this description, instead focuses on <em>simple
+      graphs</em>, which have at most one edge between any two nodes.
   </p>
+
+  <p style="font-size:125%;font-weight:bold;margin-bottom:8px">Hamiltonian paths
+  </p>
+
+  <p>
+    Recall than an Eulerian path is a path that visits each edge exactly once,
+    and there is a simple test for whether a graph has an Euliean path: at most
+    two nodes have an odd number of edges coming out of them. What about a path
+    that visits every <em>node</em> at least once? This is called a
+    <em>Hamiltonian
+      path</em>, after William Rowan Hamilton, who invented a game that involves
+    finding a Hamiltonian path on the edges of a dodecahedron.
+  </p>
+
+  <div style="text-align: center">
+    <figure>
+      <a href="https://commons.wikimedia.org/wiki/File:Jogo_icosiano_01.jpg">
+        <img style="border: 2px solid #00ADD8" src="icosian.jpg"
+          title="icosian" />
+      </a>
+      <figcaption><em>Icosian game</em></figcaption>
+    </figure>
+  </div>
+
+  <p>
+    Unlike an Eulerian path,
+    <a href="https://en.wikipedia.org/wiki/Hamiltonian_path_problem">determining
+      whether a general graph has a Hamiltonian path</a> is
+    <a href="https://en.wikipedia.org/wiki/NP-completeness">NP-complete</a>.
+  </p>
+
+
+
+  <p style="font-size:125%;font-weight:bold;margin-bottom:8px">Graph
+    representation</p>
 
   <p>
     In computing, there are several ways to represent a graph. In this puzzle
     we will use the
     <em><a href="https://en.wikipedia.org/wiki/Adjacency_matrix">adjacency
         matrix</a></em>. The adjacency matrix of a graph with <em>n</em> nodes
-    is the <em>n*n</em> binary matrix that has a 1 in position (<em>i</em>,
-    <em>j</em>) if there is an edge between node <em>i</em> and node <em>j</em>,
+    is the <em>n*n</em> matrix that has a 1 in position (<em>i</em>, <em>j</em>)
+    if there is an edge between node <em>i</em> and node <em>j</em>,
     otherwise it has a 0.
   </p>
 
   <p>
     Consider the following graph with five nodes:
-    <img style="display:block;margin:auto" src="abcde.png"><br />
-    The adjacency matrix for this graph is this:
   </p>
 
-  <table style="margin:auto;border-collapse:collapse;font-size: 20px">
-    <tr>
-      <td></td>
+  <div style="text-align: center">
+    <figure>
+      <img src="abcde.png" title="graph" />
+    </figure>
+  </div>
+
+  <p>
+    The adjacency matrix for this graph is:
+  </p>
+
+  <table
+    style="margin:auto;border-collapse:collapse;font-size:20px;text-align:center">
+    <tr style="height:1.6em">
+      <td style="width:1.5em"></td>
+      <td style="width:1.5em">A</td>
+      <td style="width:1.5em">B</td>
+      <td style="width:1.5em">C</td>
+      <td style="width:1.5em">D</td>
+      <td style="width:1.5em">E</td>
+    </tr>
+    <tr style="height:1.6em">
       <td>A</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">1</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">1</td>
+      <td style="border:2px solid #8e9492">0</td>
+    </tr>
+    <tr style="height:1.6em">
       <td>B</td>
+      <td style="border:2px solid #8e9492">1</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">1</td>
+      <td style="border:2px solid #8e9492">1</td>
+      <td style="border:2px solid #8e9492">0</td>
+    </tr>
+    <tr style="height:1.6em">
       <td>C</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">1</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">1</td>
+      <td style="border:2px solid #8e9492">1</td>
+    </tr>
+    <tr style="height:1.6em">
       <td>D</td>
+      <td style="border:2px solid #8e9492">1</td>
+      <td style="border:2px solid #8e9492">1</td>
+      <td style="border:2px solid #8e9492">1</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">0</td>
+    </tr>
+    <tr style="height:1.6em">
       <td>E</td>
-    </tr>
-    <tr>
-      <td>A</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>B</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>C</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>D</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>E</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">1</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">0</td>
     </tr>
   </table>
 
+  <!--
   <p>
-    There are two thigns to notice about this matrix:
-    It is symmetric. This is because the graph is undirected.
+    There are two things to notice about this matrix:
 
-    The entries along the main diagonal are all 0. This is because there are no
-    edges that connect a node to itself.
+  <ol>
+    <li>
+      It is symmetric. This is because the graph is <em>undirected</em>. That
+      is, edges can be traversed in either direction. In some graphs, edges can
+      be <em>directed</em>, meaning they point in a single direction. The
+      adjacency matrix of a directed graphs is not necessarily symmetric.
+    </li>
+    <li>
+      The entries along the main diagonal are all 0. This is because there are
+      no
+      edges that connect a node to itself.
+    </li>
+  </ol>
+  </p>
+-->
+
+  <p style="font-size:125%;font-weight:bold;margin-bottom:8px">Weighted graphs
   </p>
 
   <p>
-    It is possible to extend our definition of a graph further, by incorporating
-    a notion of cost to traversing an edge.
-    One can imaging that in a //// mapping software, further distance btween
-    cities
+    It is possible to extend the utlity of a graph further by incorporating
+    the notion of a cost to traversing an edge. Graphs whose edges have such
+    costs, or weights, are called <em>weighted graphs</em>. Weighted graphs
+    allow more realistic representation of things in the natural world, such a
+    roads and flight paths. On a graph that represents cities as nodes and
+    highways as edges, one natural weight of an edge would be the distance of
+    that highway.
+  </p>
+
+  <p>
+    To represent a weighted graph, cells of the adjacency matrix contain the
+    weight of that edge, rather than just a 0 or 1. Here is an example of such a
+    matrix:
+  </p>
+
+  <table
+    style="margin:auto;border-collapse:collapse;font-size: 20px;text-align:center">
+    <tr style="height:1.6em">
+      <td style="width:1.5em"></td>
+      <td style="width:1.5em">A</td>
+      <td style="width:1.5em">B</td>
+      <td style="width:1.5em">C</td>
+      <td style="width:1.5em">D</td>
+      <td style="width:1.5em">E</td>
+    </tr>
+    <tr style="height:1.6em">
+      <td>A</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">3</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">1</td>
+      <td style="border:2px solid #8e9492">0</td>
+    </tr>
+    <tr style="height:1.6em">
+      <td>B</td>
+      <td style="border:2px solid #8e9492">3</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">4</td>
+      <td style="border:2px solid #8e9492">2</td>
+      <td style="border:2px solid #8e9492">0</td>
+    </tr>
+    <tr style="height:1.6em">
+      <td>C</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">4</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">1</td>
+      <td style="border:2px solid #8e9492">10</td>
+    </tr>
+    <tr style="height:1.6em">
+      <td>D</td>
+      <td style="border:2px solid #8e9492">1</td>
+      <td style="border:2px solid #8e9492">2</td>
+      <td style="border:2px solid #8e9492">1</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">0</td>
+    </tr>
+    <tr style="height:1.6em">
+      <td>E</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">10</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">0</td>
+    </tr>
+  </table>
+
+
+
+  <p style="font-size:125%;font-weight:bold;margin-bottom:8px">The puzzle
+  </p>
+
+  <p>
+    Consider the following adjacency matrix of a weighted graph:
   </p>
 
 </body>
