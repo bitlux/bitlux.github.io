@@ -20,14 +20,15 @@
 
 <body>
   <p>
-    To jump straight to the puzzle, look for the section titled "Puzzle".
+    To jump straight to the puzzle, scroll down to the last section, titled "The Puzzle".
+    Between here and there is an superfluous essay on graph theory.
   </p>
 
   <p style="font-size:125%;font-weight:bold;margin-bottom:8px">The Seven Bridges
     of Königsberg</p>
 
   <p>
-    Leonhard Euler (pronounced <em>oiler</em>; 1707 &ndash; 1783) is considered
+    Leonhard Euler (pronounced "<em>oiler</em>"; 1707 &ndash; 1783) is considered
     by many people
     (include myself) to be the greatest mathematician of all time. One of the
     most significant problems that he solved is called
@@ -63,12 +64,7 @@
   <div style="text-align: center">
     <figure>
       <img src="bridges_graph.png" title="Abstract bridges" />
-      <figcaption><em>Abstract bridges</em></figcaption>
-    </figure>
-
-    <figure>
-      <img src="kberg_graph.png" title="Königsberg as a graph" />
-      <figcaption><em>Königsberg as a graph</em></figcaption>
+      <figcaption><em>Abstract bridges of Königsberg</em></figcaption>
     </figure>
   </div>
 
@@ -80,26 +76,34 @@
     for the start and end nodes). This means that the edges must come in
     pairs. That is, for all nodes except the start and end, there must be an
     even number of edges attached to it. Because each of the four nodes in
-    Königsberg have an odd number of edges, no such walk is possible. Such a
-    tour that visits each edge of a graph exactly once is called an <em>Eulerian
+    Königsberg has an odd number of edges, no such walk is possible. A
+    tour that visits each edge of a graph exactly once is became known as an <em>Eulerian
       path</em>.
   </p>
 
   <p style="font-size:125%;font-weight:bold;margin-bottom:8px">Graphs</p>
 
   <p>
-    Mathematically speaking, a graph is a set of objects, represented as nodes
+    In mathematics, a graph (not to be confused with unrelated concepts like plots
+    in the x-y plane or visualizations like bar charts) is a set of objects, represented as nodes
     (also called vertices), where some pairs of objects are related in some
     sense. These relations are represented as edges between the nodes.
   </p>
 
   <p>
-    Graphs are used to represent things in the real world. Mapping and
-    route-finding software represents roads as edges that connect intersections.
+    Graphs are often used to represent things in the real world. Navigation software
+    represents roads as edges that connect intersections.
     Social scientists study the <em>friend graph</em> of social networks, both
-    in real life and on sites like Facebook, where nodes are people and edges
+    in real life and on sites like Facebook, where nodes represent people and edges
     represent friendships.
   </p>
+
+  <div style="text-align: center">
+    <figure>
+      <img src="kberg_graph.png" title="Königsberg as a graph" />
+      <figcaption><em>Königsberg as a graph</em></figcaption>
+    </figure>
+  </div>
 
   <p>
     The graph of Königsberg is unusual in that some nodes have multiple edges
@@ -112,12 +116,9 @@
   </p>
 
   <p>
-    Recall than an Eulerian path is a path that visits each edge exactly once,
-    and there is a simple test for whether a graph has an Euliean path: at most
-    two nodes have an odd number of edges coming out of them. What about a path
-    that visits every <em>node</em> at least once? This is called a
-    <em>Hamiltonian
-      path</em>, after William Rowan Hamilton, who invented a game that involves
+    Recall than an Eulerian path is a path that visits each edge exactly once.
+    What about a path that visits every <em>node</em> at least once? This is called a
+    <em>Hamiltonian path</em>, after William Rowan Hamilton, who invented a game that involves
     finding a Hamiltonian path on the edges of a dodecahedron.
   </p>
 
@@ -127,21 +128,19 @@
         <img style="border: 2px solid #00ADD8" src="icosian.jpg"
           title="icosian" />
       </a>
-      <figcaption><em>Icosian game</em></figcaption>
+      <figcaption><em>The icosian game</em></figcaption>
     </figure>
   </div>
 
   <p>
-    Unlike an Eulerian path,
+    Unlike the simple test for determining whether a graph has an Eulerian path,
     <a href="https://en.wikipedia.org/wiki/Hamiltonian_path_problem">determining
-      whether a general graph has a Hamiltonian path</a> is
-    <a href="https://en.wikipedia.org/wiki/NP-completeness">NP-complete</a>.
+      whether an arbitrary graph has a Hamiltonian path</a> is
+    <a href="https://en.wikipedia.org/wiki/NP-completeness">NP-complete</a>, meaning
+    there is no known way to solve it efficiently.
   </p>
 
-
-
-  <p style="font-size:125%;font-weight:bold;margin-bottom:8px">Graph
-    representation</p>
+  <p style="font-size:125%;font-weight:bold;margin-bottom:8px">Representing graphs</p>
 
   <p>
     In computing, there are several ways to represent a graph. In this puzzle
@@ -243,14 +242,27 @@
   </p>
 
   <p>
-    It is possible to extend the utlity of a graph further by incorporating
-    the notion of a cost to traversing an edge. Graphs whose edges have such
-    costs, or weights, are called <em>weighted graphs</em>. Weighted graphs
-    allow more realistic representation of things in the natural world, such a
-    roads and flight paths. On a graph that represents cities as nodes and
-    highways as edges, one natural weight of an edge would be the distance of
-    that highway.
+    It is possible to extend the usefulness of a graph further by using an edge to do more than
+    just represent the existence of a connection between two nodes. It can also represent the "cost"
+    of travelling from one node to the other. Adding costs to edges allows graphs to be a more realistic representation
+    of things in the natural world, such a roads and shipping routes. On a graph that
+    represents cities as nodes and highways as edges, the cost of an edge
+    could be the distance of the highway that it represents.
+    Graphs whose edges have costs, or weights, are called <em>weighted graphs</em>.
   </p>
+
+  <p>
+    When you drive from one city to the next, it's natural to think of the cost of your trip as
+    the total distance you have driven, which is the sum of the distances of each road you took. 
+    Similarly, the cost of a path on a weighted graph is defined as the sum of the weights of the
+    edges along that path.
+    Closely related to the problem of finding a Hamiltonian path in a graph is the
+    <a href="https://en.wikipedia.org/wiki/Longest_path_problem">longest path problem</a>: finding the longest path (path with greatest cost) you can take in a graph,
+    given that you don't visit a node more than once. 
+
+  </p>
+
+  <p style="font-size:110%;font-weight:bold;margin-bottom:5px;">Representation of weighted graphs</p>
 
   <p>
     To represent a weighted graph, cells of the adjacency matrix contain the
@@ -312,6 +324,7 @@
 
 
 
+
   <p style="font-size:125%;font-weight:bold;margin-bottom:8px">The puzzle
   </p>
 
@@ -319,6 +332,10 @@
     Consider the following adjacency matrix of a weighted graph:
   </p>
 
-</body>
+  <p>
+    <a href="https://www.youtube.com/embed/a3ww0gwEszo?si=Tt-Ha7sjZKsALpWC">Here is some inspirational music</a>
+    you can listen to while you work on this puzzle.
+  </p>
 
+</body>
 </html>
