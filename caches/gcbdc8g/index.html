@@ -8,11 +8,6 @@
       width: 50%;
       margin: 2em auto;
     }
-
-    ttd {
-      border: 2px solid #8e9492;
-      padding: .3em;
-    }
   </style>
 
   <title>Euler & Hamilton</title>
@@ -20,7 +15,8 @@
 
 <body>
   <p>
-    To jump straight to the puzzle, scroll down to the last section, titled "The Puzzle".
+    To jump straight to the puzzle, scroll down to the last section, titled "The
+    Puzzle".
     Between here and there is an superfluous essay on graph theory.
   </p>
 
@@ -28,7 +24,8 @@
     of Königsberg</p>
 
   <p>
-    Leonhard Euler (pronounced "<em>oiler</em>"; 1707 &ndash; 1783) is considered
+    Leonhard Euler (pronounced "<em>oiler</em>"; 1707 &ndash; 1783) is
+    considered
     by many people
     (include myself) to be the greatest mathematician of all time. One of the
     most significant problems that he solved is called
@@ -44,8 +41,7 @@
     <figure>
       <a
         href="https://www.scientificamerican.com/article/how-the-seven-bridges-of-koenigsberg-spawned-new-math/">
-        <img style="border: 2px solid #00ADD8" src="bridges.png"
-          title="Königsberg" />
+        <img style="border: 2px solid #00ADD8" src="bridges.png" title="Königsberg" />
       </a>
       <figcaption><em>The bridges of Königsberg</em></figcaption>
     </figure>
@@ -77,25 +73,32 @@
     pairs. That is, for all nodes except the start and end, there must be an
     even number of edges attached to it. Because each of the four nodes in
     Königsberg has an odd number of edges, no such walk is possible. A
-    tour that visits each edge of a graph exactly once is became known as an <em>Eulerian
+    tour that visits each edge of a graph exactly once is became known as an
+    <em>Eulerian
       path</em>.
   </p>
 
   <p style="font-size:125%;font-weight:bold;margin-bottom:8px">Graphs</p>
 
   <p>
-    In mathematics, a graph (not to be confused with unrelated concepts like plots
-    in the x-y plane or visualizations like bar charts) is a set of objects, represented as nodes
-    (also called vertices), where some pairs of objects are related in some
+    In mathematics, a graph (not to be confused with unrelated concepts like
+    plots in the x-y plane or visualizations like bar charts) is a set of objects, represented as
+    nodes (also called vertices), where some pairs of objects are related in some
     sense. These relations are represented as edges between the nodes.
   </p>
 
+  <div style="text-align: center">
+    <figure>
+      <img src="abcde.png" title="graph" />
+      <figcaption><em>A graph with five nodes and six edges</em></figcaption>
+    </figure>
+  </div>
+
   <p>
-    Graphs are often used to represent things in the real world. Navigation software
-    represents roads as edges that connect intersections.
-    Social scientists study the <em>friend graph</em> of social networks, both
-    in real life and on sites like Facebook, where nodes represent people and edges
-    represent friendships.
+    Graphs are often used to represent things in the real world. Navigation
+    software represents roads as edges that connect intersections. Social scientists study the
+    <em>friend graph</em> of social networks, both in real life and on sites like Facebook, where
+    nodes represent people and edges represent friendships.
   </p>
 
   <div style="text-align: center">
@@ -117,16 +120,17 @@
 
   <p>
     Recall than an Eulerian path is a path that visits each edge exactly once.
-    What about a path that visits every <em>node</em> at least once? This is called a
-    <em>Hamiltonian path</em>, after William Rowan Hamilton, who invented a game that involves
+    What about a path that visits every <em>node</em> at least once? This is
+    called a
+    <em>Hamiltonian path</em>, after William Rowan Hamilton, who invented a game
+    that involves
     finding a Hamiltonian path on the edges of a dodecahedron.
   </p>
 
   <div style="text-align: center">
     <figure>
       <a href="https://commons.wikimedia.org/wiki/File:Jogo_icosiano_01.jpg">
-        <img style="border: 2px solid #00ADD8" src="icosian.jpg"
-          title="icosian" />
+        <img style="border: 2px solid #00ADD8" src="icosian.jpg" title="icosian" />
       </a>
       <figcaption><em>The icosian game</em></figcaption>
     </figure>
@@ -136,24 +140,46 @@
     Unlike the simple test for determining whether a graph has an Eulerian path,
     <a href="https://en.wikipedia.org/wiki/Hamiltonian_path_problem">determining
       whether an arbitrary graph has a Hamiltonian path</a> is
-    <a href="https://en.wikipedia.org/wiki/NP-completeness">NP-complete</a>, meaning
-    there is no known way to solve it efficiently.
+    <a href="https://en.wikipedia.org/wiki/NP-completeness">NP-complete</a>,
+    meaning there is no known way to solve it efficiently.
+  </p>
+
+  <p style="font-size:125%;font-weight:bold;margin-bottom:8px">Weighted graphs
+  </p>
+
+  <p>
+    Graph representations can be even more useful if we allow edges to have a cost associated with
+    them, rather than just representing the existence of a connection between two nodes. Graphs
+    whose edges have costs, or weights, are called <em>weighted graphs</em>. Weighted graphs are a
+    more realistic representation of things in the natural world, such a roads and shipping routes.
+    On a graph that represents cities as nodes and highways as edges, the cost of an edge could be
+    the distance of the highway that it represents.
+  </p>
+
+  <p>
+    When you drive from point A to point B, it's natural to think of the cost
+    of your trip as the total distance you have driven, which is the sum of the
+    distances of each road you took. Similarly, the cost of a path on a weighted
+    graph is defined as the sum of the weights of the edges along that path.
+    Closely related to the problem of finding a Hamiltonian path in a graph is
+    the
+    <a href="https://en.wikipedia.org/wiki/Longest_path_problem">longest path
+      problem</a>: finding the longest path (path with greatest cost) you can
+    take in a graph, given that you don't visit a node more than once.
   </p>
 
   <p style="font-size:125%;font-weight:bold;margin-bottom:8px">Representing graphs</p>
 
   <p>
-    In computing, there are several ways to represent a graph. In this puzzle
-    we will use the
-    <em><a href="https://en.wikipedia.org/wiki/Adjacency_matrix">adjacency
-        matrix</a></em>. The adjacency matrix of a graph with <em>n</em> nodes
-    is the <em>n*n</em> matrix that has a 1 in position (<em>i</em>, <em>j</em>)
-    if there is an edge between node <em>i</em> and node <em>j</em>,
-    otherwise it has a 0.
+    In computing, there are several ways to represent a graph. In this puzzle we will use the
+    <em><a href="https://en.wikipedia.org/wiki/Adjacency_matrix">adjacency matrix</a></em>. The
+    adjacency matrix of a graph with <em>n</em> nodes is the <em>n*n</em> matrix that has a 1 in
+    position (<em>i</em>, <em>j</em>) if there is an edge between node <em>i</em> and node
+    <em>j</em>, otherwise it has a 0.
   </p>
 
   <p>
-    Consider the following graph with five nodes:
+    Consider the example graph from before:
   </p>
 
   <div style="text-align: center">
@@ -166,8 +192,7 @@
     The adjacency matrix for this graph is:
   </p>
 
-  <table
-    style="margin:auto;border-collapse:collapse;font-size:20px;text-align:center">
+  <table style="margin:auto;border-collapse:collapse;font-size:20px;text-align:center">
     <tr style="height:1.6em">
       <td style="width:1.5em"></td>
       <td style="width:1.5em">A</td>
@@ -238,40 +263,19 @@
   </p>
 -->
 
-  <p style="font-size:125%;font-weight:bold;margin-bottom:8px">Weighted graphs
-  </p>
-
-  <p>
-    It is possible to extend the usefulness of a graph further by using an edge to do more than
-    just represent the existence of a connection between two nodes. It can also represent the "cost"
-    of travelling from one node to the other. Adding costs to edges allows graphs to be a more realistic representation
-    of things in the natural world, such a roads and shipping routes. On a graph that
-    represents cities as nodes and highways as edges, the cost of an edge
-    could be the distance of the highway that it represents.
-    Graphs whose edges have costs, or weights, are called <em>weighted graphs</em>.
-  </p>
-
-  <p>
-    When you drive from one city to the next, it's natural to think of the cost of your trip as
-    the total distance you have driven, which is the sum of the distances of each road you took. 
-    Similarly, the cost of a path on a weighted graph is defined as the sum of the weights of the
-    edges along that path.
-    Closely related to the problem of finding a Hamiltonian path in a graph is the
-    <a href="https://en.wikipedia.org/wiki/Longest_path_problem">longest path problem</a>: finding the longest path (path with greatest cost) you can take in a graph,
-    given that you don't visit a node more than once. 
-
-  </p>
-
-  <p style="font-size:110%;font-weight:bold;margin-bottom:5px;">Representation of weighted graphs</p>
-
   <p>
     To represent a weighted graph, cells of the adjacency matrix contain the
-    weight of that edge, rather than just a 0 or 1. Here is an example of such a
-    matrix:
+    weight of that edge, rather than just a 0 or 1. Here is an example of a weighted graph
+    and its matrix:
   </p>
 
-  <table
-    style="margin:auto;border-collapse:collapse;font-size: 20px;text-align:center">
+  <div style="text-align: center">
+    <figure>
+      <img src="weighted.png" title="graph" />
+    </figure>
+  </div>
+
+  <table style="margin:auto;border-collapse:collapse;font-size:20px;text-align:center">
     <tr style="height:1.6em">
       <td style="width:1.5em"></td>
       <td style="width:1.5em">A</td>
@@ -301,14 +305,14 @@
       <td style="border:2px solid #8e9492">0</td>
       <td style="border:2px solid #8e9492">4</td>
       <td style="border:2px solid #8e9492">0</td>
-      <td style="border:2px solid #8e9492">1</td>
       <td style="border:2px solid #8e9492">10</td>
+      <td style="border:2px solid #8e9492">1</td>
     </tr>
     <tr style="height:1.6em">
       <td>D</td>
       <td style="border:2px solid #8e9492">1</td>
       <td style="border:2px solid #8e9492">2</td>
-      <td style="border:2px solid #8e9492">1</td>
+      <td style="border:2px solid #8e9492">10</td>
       <td style="border:2px solid #8e9492">0</td>
       <td style="border:2px solid #8e9492">0</td>
     </tr>
@@ -316,14 +320,16 @@
       <td>E</td>
       <td style="border:2px solid #8e9492">0</td>
       <td style="border:2px solid #8e9492">0</td>
-      <td style="border:2px solid #8e9492">10</td>
+      <td style="border:2px solid #8e9492">1</td>
       <td style="border:2px solid #8e9492">0</td>
       <td style="border:2px solid #8e9492">0</td>
     </tr>
   </table>
 
-
-
+  <p>
+    The longest Hamiltonian path in this graph is ABDCE with a weight of 16. ABCD has weight 17,
+    but it is not Hamiltonian.
+  </p>
 
   <p style="font-size:125%;font-weight:bold;margin-bottom:8px">The puzzle
   </p>
@@ -332,10 +338,277 @@
     Consider the following adjacency matrix of a weighted graph:
   </p>
 
+  <table style="margin:auto;border-collapse:collapse;font-size:20px;text-align:center">
+    <tr style="height:1.6em">
+      <td style="width:1.6em"></td>
+      <td style="width:1.8em">g</td>
+      <td style="width:1.8em">V</td>
+      <td style="width:1.8em">k</td>
+      <td style="width:1.8em">p</td>
+      <td style="width:1.8em">o</td>
+      <td style="width:1.8em">r</td>
+      <td style="width:1.8em">y</td>
+      <td style="width:1.8em">b</td>
+      <td style="width:1.8em">O</td>
+      <td style="width:1.8em">J</td>
+      <td style="width:1.8em">B</td>
+      <td style="width:1.8em">G</td>
+      <td style="width:1.8em">S</td>
+      <td style="width:1.8em">l</td>
+    </tr>
+    <tr style="height:1.6em">
+      <td>g</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">2</td>
+      <td style="border:2px solid #8e9492">66</td>
+      <td style="border:2px solid #8e9492">15</td>
+      <td style="border:2px solid #8e9492">92</td>
+      <td style="border:2px solid #8e9492">31</td>
+      <td style="border:2px solid #8e9492">80</td>
+      <td style="border:2px solid #8e9492">59</td>
+      <td style="border:2px solid #8e9492">65</td>
+      <td style="border:2px solid #8e9492">20</td>
+      <td style="border:2px solid #8e9492">58</td>
+      <td style="border:2px solid #8e9492">30</td>
+      <td style="border:2px solid #8e9492">16</td>
+      <td style="border:2px solid #8e9492">55</td>
+    </tr>
+    <tr style="height:1.6em">
+      <td>V</td>
+      <td style="border:2px solid #8e9492">2</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">10</td>
+      <td style="border:2px solid #8e9492">6</td>
+      <td style="border:2px solid #8e9492">20</td>
+      <td style="border:2px solid #8e9492">80</td>
+      <td style="border:2px solid #8e9492">62</td>
+      <td style="border:2px solid #8e9492">81</td>
+      <td style="border:2px solid #8e9492">16</td>
+      <td style="border:2px solid #8e9492">95</td>
+      <td style="border:2px solid #8e9492">71</td>
+      <td style="border:2px solid #8e9492">42</td>
+      <td style="border:2px solid #8e9492">14</td>
+      <td style="border:2px solid #8e9492">70</td>
+    </tr>
+    <tr style="height:1.6em">
+      <td>k</td>
+      <td style="border:2px solid #8e9492">66</td>
+      <td style="border:2px solid #8e9492">10</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">75</td>
+      <td style="border:2px solid #8e9492">75</td>
+      <td style="border:2px solid #8e9492">71</td>
+      <td style="border:2px solid #8e9492">12</td>
+      <td style="border:2px solid #8e9492">76</td>
+      <td style="border:2px solid #8e9492">71</td>
+      <td style="border:2px solid #8e9492">14</td>
+      <td style="border:2px solid #8e9492">81</td>
+      <td style="border:2px solid #8e9492">55</td>
+      <td style="border:2px solid #8e9492">65</td>
+      <td style="border:2px solid #8e9492">58</td>
+    </tr>
+    <tr style="height:1.6em">
+      <td>p</td>
+      <td style="border:2px solid #8e9492">15</td>
+      <td style="border:2px solid #8e9492">6</td>
+      <td style="border:2px solid #8e9492">75</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">25</td>
+      <td style="border:2px solid #8e9492">52</td>
+      <td style="border:2px solid #8e9492">37</td>
+      <td style="border:2px solid #8e9492">74</td>
+      <td style="border:2px solid #8e9492">5</td>
+      <td style="border:2px solid #8e9492">17</td>
+      <td style="border:2px solid #8e9492">8</td>
+      <td style="border:2px solid #8e9492">35</td>
+      <td style="border:2px solid #8e9492">84</td>
+      <td style="border:2px solid #8e9492">75</td>
+    </tr>
+    <tr style="height:1.6em">
+      <td>o</td>
+      <td style="border:2px solid #8e9492">92</td>
+      <td style="border:2px solid #8e9492">20</td>
+      <td style="border:2px solid #8e9492">75</td>
+      <td style="border:2px solid #8e9492">25</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">79</td>
+      <td style="border:2px solid #8e9492">37</td>
+      <td style="border:2px solid #8e9492">64</td>
+      <td style="border:2px solid #8e9492">59</td>
+      <td style="border:2px solid #8e9492">69</td>
+      <td style="border:2px solid #8e9492">67</td>
+      <td style="border:2px solid #8e9492">43</td>
+      <td style="border:2px solid #8e9492">80</td>
+      <td style="border:2px solid #8e9492">94</td>
+    </tr>
+    <tr style="height:1.6em">
+      <td>r</td>
+      <td style="border:2px solid #8e9492">31</td>
+      <td style="border:2px solid #8e9492">80</td>
+      <td style="border:2px solid #8e9492">71</td>
+      <td style="border:2px solid #8e9492">52</td>
+      <td style="border:2px solid #8e9492">79</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">61</td>
+      <td style="border:2px solid #8e9492">66</td>
+      <td style="border:2px solid #8e9492">62</td>
+      <td style="border:2px solid #8e9492">44</td>
+      <td style="border:2px solid #8e9492">42</td>
+      <td style="border:2px solid #8e9492">86</td>
+      <td style="border:2px solid #8e9492">99</td>
+      <td style="border:2px solid #8e9492">97</td>
+    </tr>
+    <tr style="height:1.6em">
+      <td>y</td>
+      <td style="border:2px solid #8e9492">80</td>
+      <td style="border:2px solid #8e9492">62</td>
+      <td style="border:2px solid #8e9492">12</td>
+      <td style="border:2px solid #8e9492">37</td>
+      <td style="border:2px solid #8e9492">37</td>
+      <td style="border:2px solid #8e9492">61</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">72</td>
+      <td style="border:2px solid #8e9492">28</td>
+      <td style="border:2px solid #8e9492">6</td>
+      <td style="border:2px solid #8e9492">88</td>
+      <td style="border:2px solid #8e9492">11</td>
+      <td style="border:2px solid #8e9492">40</td>
+      <td style="border:2px solid #8e9492">47</td>
+    </tr>
+    <tr style="height:1.6em">
+      <td>b</td>
+      <td style="border:2px solid #8e9492">59</td>
+      <td style="border:2px solid #8e9492">81</td>
+      <td style="border:2px solid #8e9492">76</td>
+      <td style="border:2px solid #8e9492">74</td>
+      <td style="border:2px solid #8e9492">64</td>
+      <td style="border:2px solid #8e9492">66</td>
+      <td style="border:2px solid #8e9492">72</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">38</td>
+      <td style="border:2px solid #8e9492">36</td>
+      <td style="border:2px solid #8e9492">45</td>
+      <td style="border:2px solid #8e9492">53</td>
+      <td style="border:2px solid #8e9492">71</td>
+      <td style="border:2px solid #8e9492">91</td>
+    </tr>
+    <tr style="height:1.6em">
+      <td>O</td>
+      <td style="border:2px solid #8e9492">65</td>
+      <td style="border:2px solid #8e9492">16</td>
+      <td style="border:2px solid #8e9492">71</td>
+      <td style="border:2px solid #8e9492">5</td>
+      <td style="border:2px solid #8e9492">59</td>
+      <td style="border:2px solid #8e9492">62</td>
+      <td style="border:2px solid #8e9492">28</td>
+      <td style="border:2px solid #8e9492">38</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">49</td>
+      <td style="border:2px solid #8e9492">30</td>
+      <td style="border:2px solid #8e9492">89</td>
+      <td style="border:2px solid #8e9492">37</td>
+      <td style="border:2px solid #8e9492">64</td>
+    </tr>
+    <tr style="height:1.6em">
+      <td>J</td>
+      <td style="border:2px solid #8e9492">20</td>
+      <td style="border:2px solid #8e9492">95</td>
+      <td style="border:2px solid #8e9492">14</td>
+      <td style="border:2px solid #8e9492">17</td>
+      <td style="border:2px solid #8e9492">69</td>
+      <td style="border:2px solid #8e9492">44</td>
+      <td style="border:2px solid #8e9492">6</td>
+      <td style="border:2px solid #8e9492">36</td>
+      <td style="border:2px solid #8e9492">49</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">58</td>
+      <td style="border:2px solid #8e9492">82</td>
+      <td style="border:2px solid #8e9492">60</td>
+      <td style="border:2px solid #8e9492">48</td>
+    </tr>
+    <tr style="height:1.6em">
+      <td>B</td>
+      <td style="border:2px solid #8e9492">58</td>
+      <td style="border:2px solid #8e9492">71</td>
+      <td style="border:2px solid #8e9492">81</td>
+      <td style="border:2px solid #8e9492">8</td>
+      <td style="border:2px solid #8e9492">67</td>
+      <td style="border:2px solid #8e9492">42</td>
+      <td style="border:2px solid #8e9492">88</td>
+      <td style="border:2px solid #8e9492">45</td>
+      <td style="border:2px solid #8e9492">30</td>
+      <td style="border:2px solid #8e9492">58</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">6</td>
+      <td style="border:2px solid #8e9492">3</td>
+      <td style="border:2px solid #8e9492">1</td>
+    </tr>
+    <tr style="height:1.6em">
+      <td>G</td>
+      <td style="border:2px solid #8e9492">30</td>
+      <td style="border:2px solid #8e9492">42</td>
+      <td style="border:2px solid #8e9492">55</td>
+      <td style="border:2px solid #8e9492">35</td>
+      <td style="border:2px solid #8e9492">43</td>
+      <td style="border:2px solid #8e9492">86</td>
+      <td style="border:2px solid #8e9492">11</td>
+      <td style="border:2px solid #8e9492">53</td>
+      <td style="border:2px solid #8e9492">89</td>
+      <td style="border:2px solid #8e9492">82</td>
+      <td style="border:2px solid #8e9492">6</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">27</td>
+      <td style="border:2px solid #8e9492">98</td>
+    </tr>
+    <tr style="height:1.6em">
+      <td>S</td>
+      <td style="border:2px solid #8e9492">16</td>
+      <td style="border:2px solid #8e9492">14</td>
+      <td style="border:2px solid #8e9492">65</td>
+      <td style="border:2px solid #8e9492">84</td>
+      <td style="border:2px solid #8e9492">80</td>
+      <td style="border:2px solid #8e9492">99</td>
+      <td style="border:2px solid #8e9492">40</td>
+      <td style="border:2px solid #8e9492">71</td>
+      <td style="border:2px solid #8e9492">37</td>
+      <td style="border:2px solid #8e9492">60</td>
+      <td style="border:2px solid #8e9492">3</td>
+      <td style="border:2px solid #8e9492">27</td>
+      <td style="border:2px solid #8e9492">0</td>
+      <td style="border:2px solid #8e9492">94</td>
+    </tr>
+    <tr style="height:1.6em">
+      <td>l</td>
+      <td style="border:2px solid #8e9492">55</td>
+      <td style="border:2px solid #8e9492">70</td>
+      <td style="border:2px solid #8e9492">58</td>
+      <td style="border:2px solid #8e9492">75</td>
+      <td style="border:2px solid #8e9492">94</td>
+      <td style="border:2px solid #8e9492">97</td>
+      <td style="border:2px solid #8e9492">47</td>
+      <td style="border:2px solid #8e9492">91</td>
+      <td style="border:2px solid #8e9492">64</td>
+      <td style="border:2px solid #8e9492">48</td>
+      <td style="border:2px solid #8e9492">1</td>
+      <td style="border:2px solid #8e9492">98</td>
+      <td style="border:2px solid #8e9492">94</td>
+      <td style="border:2px solid #8e9492">0</td>
+    </tr>
+  </table>
+
   <p>
-    <a href="https://www.youtube.com/embed/a3ww0gwEszo?si=Tt-Ha7sjZKsALpWC">Here is some inspirational music</a>
-    you can listen to while you work on this puzzle.
+    Your task is to find the longest path in this graph that starts at node <em>g</em>. Because the
+    graph is <em>complete</em> (there is an edge between every node), the longest path is
+    automatically Hamiltonian. When finished, you will have a 14-letter path that begins with
+    <em>g</em>. Take the SHA-256 hash of the first seven letters of the path to get the latitude.
+    Take the SHA-256 hash of the last seven letters to get the longitude.
+  </p>
+
+  <p>
+    <a href="https://www.youtube.com/watch?v=a3ww0gwEszo">Here is some inspirational music</a> you
+    can listen to while you work on this puzzle.
   </p>
 
 </body>
+
 </html>
