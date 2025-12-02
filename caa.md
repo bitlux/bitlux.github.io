@@ -18,6 +18,9 @@
 | Indiana       | [2025-07-23](https://www.geocaching.com/live/log/GL1EVJY7F) |
 | Michigan      | [2025-07-23](https://www.geocaching.com/live/log/GL1EVT11N) |
 | Ohio          | [2025-07-24](https://www.geocaching.com/live/log/GL1EVT2KX) |
+| Florida       | [2025-11-24](https://www.geocaching.com/live/log/GL1FMYAA6) |
+| Georgia       | [2025-11-27](https://www.geocaching.com/live/log/GL1FN64EA) |
+| Alabama       | [2025-11-29](https://www.geocaching.com/live/log/GL1FNCD48) |
 
 ### My journey
 
@@ -39,9 +42,9 @@ name in the hall of fame.
 The replacement California cache was fortunately in the Bay Area. I made the
 short drive and found the cache in a beautiful park with spectacular views of
 the coast. A great way to start the series. I did a long loop with a brutal
-uphill climb on the way back. Near the paring lot, there was a medical
-emergency on the trail, and I actually saw a very rugged ambulance drive on
-the trail to transport the victim away.
+uphill climb on the way back. Near the parking lot, there was a medical
+emergency on the trail, and I actually saw a very rugged ambulance drive on the
+trail to transport the victim away.
 
 <p style="text-align: center; font-style: italic">
 <img src="caches/caa/ca.png" alt="California" title="California">
@@ -50,9 +53,9 @@ California
 </p>
 
 For Christmas, my family visited my sister in New York City. I knew I wouldn't
-have much time to make a long trip, and I didn't have a car of my own, so I
-only made one CAA attempt: New Jersey, which is actually the closest CAA cache
-to NYC. I made the 2.5 hour (one-way) drive in the dark, but other than some
+have much time to make a long trip, and I didn't have a car of my own, so I made
+only one CAA attempt: New Jersey, which is actually the closest CAA cache to
+NYC. I made the 2.5 hour (one-way) drive in the dark, but other than some
 self-induced GPS problems, I had no issues finding the cache---even though the
 only light I had during the search was my phone's flashlight.
 
@@ -115,8 +118,8 @@ up to this point, because this location had so much potential to be great, but
 was unfortunately ruined by the local residents. The natural beauty of the
 island and river were marred by ubiquitous graffiti. The sound of the rushing
 water was drowned out by amplified music. To top it off, the south parking
-waypoint has been turned into resident-only parking, so I needed to search for
-a place to park. I was sad that I felt I should leave quickly instead of staying
+waypoint has been turned into resident-only parking, so I needed to search for a
+place to park. I was sad that I felt I should leave quickly instead of staying
 to enjoy the unique location.
 
 <p style="text-align: center; font-style: italic">
@@ -125,23 +128,22 @@ to enjoy the unique location.
 Virginia
 </p>
 
-All told, I drove 650 miles in two days to get MD, VA, one national park,
-and to set myself up for another national park the next day. After a few
-stops at New River Gorge NP, I continued on to
-Morgantown. I arrived too late to go to Cooper's Rock State Forest. The next day
-was very rainy, making me regret not arriving early enough yesterday to make an
-attempt. I began the day by attending the pre-GeoWoodstock event in the same
-park. I ran into problems as soon as I started the hike. First, I took the wrong
-trail. I ended up on the McCollum trail, which isn't even on Google Maps. After
-I crossed the power lines, I checked the map, and realized I was way off. I
-followed a faint trail back towards the Raven Rock trail, but it soon ended. I
-cut through about 300 yards of off-trail wilderness to get back to Raven Rock.
-From then, I encountered muddy ground and running water on the trail at times.
-Then it started to really pour. The rain soaked through my shoes, hat, pants,
-and even my old raincoat. This all made the hike seem much longer than it was.
-However I found the container easily, took in the views from the nearby vantage
-point, and began the trek back to my car. The hike back never seems as long as
-the hike out.
+All told, I drove 650 miles in two days to get MD, VA, one national park, and to
+set myself up for another national park the next day. After a few stops at New
+River Gorge NP, I continued on to Morgantown. I arrived too late to go to
+Cooper's Rock State Forest. The next day was very rainy, making me regret not
+arriving early enough yesterday to make an attempt. I began the day by attending
+the pre-GeoWoodstock event in the same park. I ran into problems as soon as I
+started the hike. First, I took the wrong trail. I ended up on the McCollum
+trail, which isn't even on Google Maps. After I crossed the power lines, I
+checked the map, and realized I was way off. I followed a faint trail back
+towards the Raven Rock trail, but it soon ended. I cut through about 300 yards
+of off-trail wilderness to get back to Raven Rock. From then, I encountered
+muddy ground and running water on the trail at times. Then it started to really
+pour. The rain soaked through my shoes, hat, pants, and even my old raincoat.
+This all made the hike seem much longer than it was. However I found the
+container easily, took in the views from the nearby vantage point, and began the
+trek back to my car. The hike back never seems as long as the hike out.
 
 <p style="text-align: center; font-style: italic">
 <img src="caches/caa/wv.jpg" alt="West Virginia" title="West Virginia">
@@ -195,3 +197,61 @@ Ohio
 
 Three states, two days, 650 miles (again). Would have been nicer to get four,
 but I'm still happy.
+
+Later in the year, my wife's family wanted to have a reunion in Atlanta. Our
+kids and our nephew had the entire week of Thanksgiving off from school, so they
+decided to schedule the reunion for that week. We spent three days in Orlando
+before driving up to Atlanta. I managed to get some time away on our first day
+in Florida to drive up to Lake Norris while everyone else was recovering and
+adjusting to the time difference. Florida is a multi, and stage 1 actually gave
+me quite a bit of trouble, because I didn't know what I was looking for. It
+didn't help that the coords pointed to a different object. I finally found it
+using the hint, but I read the wrong number of digits. This led me to a
+plausible but unlikely place. After a cursory investigation, I determined I was
+in the wrong place and headed back into the Lake Norris conservation area. I was
+able to drive to stage 2, which I was grateful for, since it was a little humid.
+Stage 2 was a quick find, and 3 the quickest because of the hint. The GPSr was a
+little jumpy at the final, but I used a previous log photo to narrow my search.
+This was the hardest I've worked for a CAA cache so far, but I enjoyed the
+experience.
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/fl.png" alt="Florida" title="Florida">
+<br />
+Florida
+</p>
+
+We split up the drive from Orlando to Atlanta over two days. On the second day,
+we made the detour to pick up Georgia. It was a lot like Maryland (except I was
+able to park much closer): in the woods, no hint, but still a quick find.
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/ga.png" alt="Georgia" title="Georgia">
+<br />
+Georgia
+</p>
+
+Two days after Thanksgiving, I set out at 6:00 a.m. I was surprised to encounter
+Atlanta traffic at 6:15 on a Saturday morning, but if anything has surprised me
+about this trip, it's been the traffic. The thing that has surprised me the
+second most is the weather. I expected Florida to be hot and humid, but I did
+not expect Atlanta, just a few hours north, to be so cold, and Alabama to be
+below freezing. I arrived at Cheaha State Park before it opened, but the gate
+was open and I drove through. (I did the honorable thing of paying on my way
+out). The gate to Bald Rock was closed, despite the sign saying it would be open
+at sunrise. I walked past and made my way along the long wooden walkway. Once I
+got to the end, I began my search. I don't know what is the intended route to
+the final, but the path I took earned all of its 2.5 terrain stars, if not more.
+Once I got relatively close, there was a tree that stood out, and sure enough
+that was the one which housed the cache. I signed my name and began the trek
+back. This time I found what is likely the intended path (funny how that always
+happens. I think it's because when going to GZ, the only measure of progress is
+distance away and one is reluctant to make any adjustment that deviates from the
+direct path. Once the cache is found, the goal now becomes a safe return to a
+known location).
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/al.png" alt="Alabama" title="Alabama">
+<br />
+Alabama
+</p>
