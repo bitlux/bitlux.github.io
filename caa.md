@@ -21,6 +21,8 @@
 | Florida       | [2025-11-24](https://www.geocaching.com/live/log/GL1FMYAA6) |
 | Georgia       | [2025-11-27](https://www.geocaching.com/live/log/GL1FN64EA) |
 | Alabama       | [2025-11-29](https://www.geocaching.com/live/log/GL1FNCD48) |
+| Utah          | [2025-12-22](https://www.geocaching.com/live/log/GL1FR4HRK) |
+| Nevada        | [2025-12-23](https://www.geocaching.com/live/log/GL1FR85CT) |
 
 ### My journey
 
@@ -255,3 +257,9 @@ known location).
 <br />
 Alabama
 </p>
+
+For Christmas, my wife and older son went to Korea, leaving me and my younger son to fend for ourselves. I asked him what he wanted to do.
+
+"I want to go to Death Valley."
+
+My heart melted and a trip was planned. We will drive to Las Vegas, spend 4-5 days there, then 1-2 days in Death Valley, then swing past Mono Lake on the way back. Caching-wise, my goals are seven counties in my quest to sign a log in all 58 in CA, GCC2, and the Nevada and Utah C
