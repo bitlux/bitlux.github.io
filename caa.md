@@ -258,8 +258,38 @@ known location).
 Alabama
 </p>
 
-For Christmas, my wife and older son went to Korea, leaving me and my younger son to fend for ourselves. I asked him what he wanted to do.
-
+For Christmas, my wife and older son went to Korea, leaving me and my younger
+son without plans. My wife asked him, "Do you want to come to Korea with us?"
+<br />
+"No."<br />
+I asked him, "Do you want to go to NYC with grandma and your aunt?"<br />
+"No."<br />
+"Well, where do you want to go?"<br />
 "I want to go to Death Valley."
 
-My heart melted and a trip was planned. We will drive to Las Vegas, spend 4-5 days there, then 1-2 days in Death Valley, then swing past Mono Lake on the way back. Caching-wise, my goals are seven counties in my quest to sign a log in all 58 in CA, GCC2, and the Nevada and Utah C
+My heart melted and a boys road trip was planned. We spent almost a week in Las
+Vegas and made the 2.5 hour drive to the Utah cache on our second day, before a
+brief visit to Zion National Park.
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/ut.png" alt="Utah" title="Utah">
+<br />
+Utah
+</p>
+
+I had toyed with the idea of getting two CAA caches in the same day for the
+second time this year, but the early sunset made me realize this was a bad idea.
+The next afternoon we set out for a hike in Red Rock Canyon, a short drive from
+Vegas, on a surprisingly cloudy day. We even got rain on our drive back.
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/nv.png" alt="Nevada" title="Nevada">
+<br />
+Nevada
+</p>
+
+
+
+
+
+
