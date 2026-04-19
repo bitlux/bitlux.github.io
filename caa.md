@@ -23,6 +23,7 @@
 | Alabama       | [2025-11-29](https://www.geocaching.com/live/log/GL1FNCD48) |
 | Utah          | [2025-12-22](https://www.geocaching.com/live/log/GL1FR4HRK) |
 | Nevada        | [2025-12-23](https://www.geocaching.com/live/log/GL1FR85CT) |
+| Hawaii        | [2026-04-16](https://www.geocaching.com/live/log/GL1GB5Y7F) |
 
 ### My journey
 
@@ -287,6 +288,23 @@ Vegas, on a surprisingly cloudy day. We even got rain on our drive back.
 <br />
 Nevada
 </p>
+
+#### 2026
+
+After a long deliberation about where to go for the kids' spring break, we
+settled on Hawai'i. I made sure the trip included a few days in Oahu so I could
+attempt this cache. I woke up early one morning and made the drive to Keaīwa
+Heiau State Recreation Area (somehow there was traffic in Honolulu at 6:30
+a.m.). After a short but gorgeous hike and a quick search I found the container.
+I awarded the cache a favorite point for the scenery.
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/hi.png" alt="Hawai'i" title="Hawai'i">
+<br />
+Hawai'i
+</p>
+
+
 
 
 
