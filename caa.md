@@ -1,7 +1,7 @@
-# Cache Across America
+# bitlux's Cache Across America Journal
 
 <p style="text-align: center">
-<img src="caches/caa/map.png" width="480px" alt="Current status" title="Curent status">
+<img src="caches/caa/caa.png" width="480px" alt="Current status" title="Curent status">
 <br />
 </p>
 
