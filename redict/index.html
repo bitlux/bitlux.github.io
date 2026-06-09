@@ -10,7 +10,7 @@
 
     input {
       width: 100%;
-      font-size: 100%;
+      font-size: 200%;
     }
 
     .outer {
@@ -21,7 +21,8 @@
 
     #output {
       white-space: pre-line;
-
+      width: 75%;
+      margin-top: 1em;
     }
   </style>
 
@@ -33,7 +34,7 @@
       document.querySelector("input").addEventListener("input", function (event) {
         output.textContent = "";
 
-        const input = event.target.value;
+        const input = event.target.value.toLowerCase();
         if (input.length < 4) {
           return;
         }
