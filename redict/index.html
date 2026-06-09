@@ -24,6 +24,14 @@
       width: 75%;
       margin: 1em auto;
       line-height: 1.2;
+      font-size: 150%;
+    }
+
+    button {
+      margin: 1em .5em 0;
+      width: 50px;
+      height: 50px;
+      font-size: 2em;
     }
   </style>
 
@@ -31,8 +39,10 @@
     document.addEventListener("DOMContentLoaded", function () {
       const output = document.getElementById("output");
       let lines = [];
+      let input = document.querySelector("input");
 
-      document.querySelector("input").addEventListener("input", function (event) {
+      // match regex based on input
+      input.addEventListener("input", function (event) {
         output.textContent = "";
 
         const input = event.target.value.toLowerCase();
@@ -51,14 +61,28 @@
         catch (error) { }
       });
 
+      // buttons
+      const map = new Map();
+      map.set("caret", "^");
+      map.set("dollar", "$");
+      map.set("lbrace", "{");
+      map.set("rbrace", "}");
+      map.set("lbracket", "[");
+      map.set("rbracket", "]");
+      for (const [id, value] of map) {
+        let button = document.querySelector("#" + id);
+        button.addEventListener('click', () => {
+          input.value += value;
+        });
+      }
 
+      // fetch dictionary
       fetch('https://raw.githubusercontent.com/bitlux/caches/refs/heads/master/lib/data/wordlist-20210729.txt')
         .then(response => response.text())
         .then(text => {
           lines = text.split("\n");
         })
         .catch(error => console.error('Error:', error));
-
     });
   </script>
 </head>
@@ -66,6 +90,13 @@
 <body>
   <div class="outer">
     <input type="text" id="regex">
+    <button id="caret">^</button>
+    <button id="dollar">$</button>
+    <button id="star">*</button>
+    <button id="lbrace">{</button>
+    <button id="rbrace">}</button>
+    <button id="lbracket">[</button>
+    <button id="rbracket">]</button>
     <div id="output"></div>
   </div>
 </body>
