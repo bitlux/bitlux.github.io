@@ -1,0 +1,71 @@
+<html>
+
+<head>
+  <title>dict regex</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 200%;
+    }
+
+    input {
+      width: 100%;
+      font-size: 100%;
+    }
+
+    .outer {
+      width: 70%;
+      margin: auto;
+      padding-top: 1em;
+    }
+
+    #output {
+      white-space: pre-line;
+
+    }
+  </style>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const output = document.getElementById("output");
+      let lines = [];
+
+      document.querySelector("input").addEventListener("input", function (event) {
+        output.textContent = "";
+
+        const input = event.target.value;
+        if (input.length < 4) {
+          return;
+        }
+
+        try {
+          const re = new RegExp(input);
+          for (const word of lines) {
+            if (re.test(word)) {
+              output.textContent += word + "\n";
+            }
+          }
+        }
+        catch (error) { }
+      });
+
+
+      fetch('https://raw.githubusercontent.com/bitlux/caches/refs/heads/master/lib/data/wordlist-20210729.txt')
+        .then(response => response.text())
+        .then(text => {
+          lines = text.split("\n");
+        })
+        .catch(error => console.error('Error:', error));
+
+    });
+  </script>
+</head>
+
+<body>
+  <div class="outer">
+    <input type="text" id="regex">
+    <div id="output"></div>
+  </div>
+</body>
+
+</html>
