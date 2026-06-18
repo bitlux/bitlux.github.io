@@ -29,8 +29,8 @@
 
     button {
       margin: 1em .5em 0;
-      width: 50px;
-      height: 50px;
+      wwidth: 50px;
+      hheight: 50px;
       font-size: 2em;
     }
   </style>
@@ -38,7 +38,7 @@
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       const output = document.getElementById("output");
-      let lines = [];
+      let allWords = [];
       let input = document.querySelector("input");
 
       // match regex based on input
@@ -52,11 +52,18 @@
 
         try {
           const re = new RegExp(input);
-          for (const word of lines) {
+          let matches = [];
+
+          for (const word of allWords) {
+            if (matches.length() > 100) {
+              break;
+            }
             if (re.test(word)) {
-              output.textContent += word + "\n";
+              matches.push(word)
             }
           }
+
+          output.textContent += matches.join("\n");
         }
         catch (error) { }
       });
@@ -80,7 +87,7 @@
       fetch('https://raw.githubusercontent.com/bitlux/caches/refs/heads/master/lib/data/wordlist-20210729.txt')
         .then(response => response.text())
         .then(text => {
-          lines = text.split("\n");
+          allWords = text.split("\n");
         })
         .catch(error => console.error('Error:', error));
     });
