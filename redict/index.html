@@ -56,12 +56,12 @@
           const re = new RegExp(input);
 
           for (const word of allWords) {
-            if (matches.length() > 100) {
+            if (matches.length > 100) {
               break;
             }
             if (re.test(word)) {
-              matches.push(word)
-              console.log(word)
+              matches.push(word);
+              console.log(word);
             }
           }
         }
@@ -93,6 +93,7 @@
           allWords = text.split("\n");
         })
         .catch(error => console.error('Error:', error));
+      console.log("loaded", allWords.length, "words");
     });
   </script>
 </head>
