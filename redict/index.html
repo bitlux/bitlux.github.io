@@ -50,9 +50,10 @@
           return;
         }
 
+        let matches = [];
+
         try {
           const re = new RegExp(input);
-          let matches = [];
 
           for (const word of allWords) {
             if (matches.length() > 100) {
@@ -60,12 +61,14 @@
             }
             if (re.test(word)) {
               matches.push(word)
+              console.log(word)
             }
           }
-
-          output.textContent += matches.join("\n");
         }
         catch (error) { }
+        finally {
+          output.textContent = matches.join("\n");
+        }
       });
 
       // buttons
