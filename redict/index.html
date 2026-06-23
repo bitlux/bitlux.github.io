@@ -28,9 +28,8 @@
     }
 
     button {
-      margin: 1em .5em 0;
-      wwidth: 50px;
-      hheight: 50px;
+      margin: .2em;
+      padding: 5px 15px;
       font-size: 2em;
     }
   </style>
@@ -91,9 +90,9 @@
         .then(response => response.text())
         .then(text => {
           allWords = text.split("\n");
+         console.log("loaded", allWords.length, "words");
         })
         .catch(error => console.error('Error:', error));
-      console.log("loaded", allWords.length, "words");
     });
   </script>
 </head>
