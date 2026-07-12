@@ -7,7 +7,7 @@
 <br />
 </p>
 
-### Log entries
+## Log entries
 
 | State         | Date                                                        |
 | ------------- | ----------------------------------------------------------- |
@@ -26,16 +26,18 @@
 | Utah          | [2025-12-22](https://www.geocaching.com/live/log/GL1FR4HRK) |
 | Nevada        | [2025-12-23](https://www.geocaching.com/live/log/GL1FR85CT) |
 | Hawaii        | [2026-04-16](https://www.geocaching.com/live/log/GL1GB5Y7F) |
+| Tennessee     | [2026-07-03](https://www.geocaching.com/live/log/GL1GVV6AM) |
+| Kentucky      | [2026-07-03](https://www.geocaching.com/live/log/GL1GVV6VK) |
 
-### My journey
+## My journey
 
-#### 2015
+### 2015
 
 I happened to find the original California CAA cache in my first week of
 caching. It was located very close to my work at the time. I had no idea what
 CAA was. My log was simply "TFTC". Such a neophyte.
 
-#### 2024
+### 2024
 
 I first heard about the CAA series from
 [this Reddit thread](https://www.reddit.com/r/geocaching/comments/1g3tla6/mustcache_in_washington_dc_area/),
@@ -70,7 +72,7 @@ only light I had during the search was my phone's flashlight.
 New Jersey
 </p>
 
-#### 2025
+### 2025
 
 Early this year, I decided to attend
 [GeoWoodstock XXI](http://geowoodstockxxi.com). As I do whenever I travel, I
@@ -291,7 +293,7 @@ Vegas, on a surprisingly cloudy day. We even got rain on our drive back.
 Nevada
 </p>
 
-#### 2026
+### 2026
 
 After a long deliberation about where to go for the kids' spring break, we
 settled on Hawai'i. I made sure the trip included a few days in Oahu so I could
@@ -306,7 +308,47 @@ I awarded the cache a favorite point for the scenery.
 Hawai'i
 </p>
 
+Fast forward to the middle of summer. My older son was spending four weeks at
+camps in Pittsburgh, PA, and I needed to go pick him up. By now you know the
+routine: how can I extend this trip to get as manny CAA's as reasonable? At
+first I wasn't sure how much time I would be able to allocate to this trip; 
+at one point I even considered flying to as far away from my destination as
+Texas and driving all the way from there. In the end I had enough time to
+spend a day attempting Tennessee and Kentucky before arriving in Pittsburgh
+the next day.
 
+Being a "car guy", I reserved a fancy car (as close to a sports car as a
+national chain would carry) from the rental place. When I arrived in Nashvile, I
+got a notification that my Jeep Grand Cherokee was ready. This was not quite
+what I had in mind, so I went to the rental counter to see if there were other
+options, or if not, if I could at least get a refund. After searching for a
+while, the attendant said they had a Genesis available. "I'll take it", I said.
+Only after I started the car did I realize it was an entirely electric vehicle,
+and the attendant had not told me. By now it was 2:00 a.m., the counter was
+closed, and I had 500 miles to drive the next day. I went to the hotel, got a
+few hours of sleep, and went to the closest branch of said chain the next day.
+The window was open, but no one came to the desk after ten minutes. "Well", I
+figured, "this is the kind of challenge that makes for a good story in the end.
+Let's see what happens". After researching how to charge the car, I set out for
+the Tennessee CAA. Other than the oppressive heat and humidity, I had no trouble
+with it.
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/tn.png" alt="Tennessee" title="Tennessee">
+<br />
+Tennessee
+</p>
+
+After a nice stop at the National Corvette Museum, where I charged my car (it
+felt kind of strange bringing an EV to a muscle car mecca), I soon arrived at
+the park where the Kentucky cache is. I missed the turn-in to the parking
+waypoint, so I parked quasi-legally to retrieve this one.
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/ky.png" alt="Kentucky" title="Kentucky">
+<br />
+Kentucky
+</p>
 
 
 
