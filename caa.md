@@ -28,6 +28,19 @@
 | Hawaii        | [2026-04-16](https://www.geocaching.com/live/log/GL1GB5Y7F) |
 | Tennessee     | [2026-07-03](https://www.geocaching.com/live/log/GL1GVV6AM) |
 | Kentucky      | [2026-07-03](https://www.geocaching.com/live/log/GL1GVV6VK) |
+| Colorado      | [2026-09-26](https://www.geocaching.com/live/log/GL1HDRDNR) |
+| Kansas        | [2026-09-27](https://www.geocaching.com/live/log/GL1HE3P6K) |
+| Missouri      | [2026-09-27](https://www.geocaching.com/live/log/GL1HE3QFC) |
+| Illinois      | [2026-09-28](https://www.geocaching.com/live/log/GL1HE8X84) |
+| Connecticut   | [2026-09-29](https://www.geocaching.com/live/log/GL1HEEFGK) |
+| Rhode Island  | [2026-09-29](https://www.geocaching.com/live/log/GL1HEEFMY) |
+| Massachusetts | [2026-09-30](https://www.geocaching.com/live/log/GL1HEJKHN) |
+| New Hampshire | [2026-09-30](https://www.geocaching.com/live/log/GL1HEJM61) |
+| Vermont       | [2026-09-30](https://www.geocaching.com/live/log/GL1HEJMNV)          |
+| Maine         | [2026-09-30](https://www.geocaching.com/live/log/GL1HEKDC1)          |
+| New York      | [2026-10-01](https://www.geocaching.com/live/log/GL1HEQR1J) |
+| Pennsylvania  | [2026-10-02](https://www.geocaching.com/live/log/GL1HEWFEQ) |
+
 
 ## My journey
 
@@ -350,7 +363,77 @@ waypoint, so I parked quasi-legally to retrieve this one.
 Kentucky
 </p>
 
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/co.png" alt="Colorado" title="Colorado">
+<br />
+Colorado
+</p>
 
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/ks.png" alt="Kansas" title="Kansas">
+<br />
+Kansas
+</p>
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/mo.png" alt="Missouri" title="Missouri">
+<br />
+Missouri
+</p>
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/il.png" alt="Illinois" title="Illinois">
+<br />
+Illinois
+</p>
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/ct.png" alt="Connecticut" title="Connecticut">
+<br />
+Connecticut
+</p>
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/ri.png" alt="Rhode Island" title="Rhode Island">
+<br />
+Rhode Island
+</p>
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/ma.png" alt="Massachusetts" title="Massachusetts">
+<br />
+Massachusetts
+</p>
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/nh.png" alt="New Hampshire" title="New Hampshire">
+<br />
+New Hampshire
+</p>
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/vt.png" alt="Vermont" title="Vermont">
+<br />
+Vermont
+</p>
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/me.png" alt="Maine" title="Maine">
+<br />
+Maine
+</p>
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/ny.png" alt="New York" title="New York">
+<br />
+New York
+</p>
+
+<p style="text-align: center; font-style: italic">
+<img src="caches/caa/pa.png" alt="Pennsylvania" title="Pennsylvania">
+<br />
+Pennsylvania
+</p>
 
 
 
