@@ -100,7 +100,7 @@ out of time to try to fix it. I didn't know when I would be back in NYC, so I
 went all out and moved my departure another day earlier.
 
 Well, the start of this trip was a comedy of errors. My Friday flight got
-cancelled. My rebooked flight the next day was delayed. Despite Google Maps's
+canceled. My re-booked flight the next day was delayed. Despite Google Maps's
 insistence, it is impossible to drive to the EWR Amtrak station, so I had to
 drive to a different train station to catch my train. That train got delayed 40
 minutes due to a disabled train on the tracks. On the drive to Delaware, Google
@@ -323,7 +323,7 @@ Hawai'i
 
 Fast forward to the middle of summer. My older son was spending four weeks at
 camps in Pittsburgh, PA, and I needed to go pick him up. By now you know the
-routine: how can I extend this trip to get as manny CAA's as reasonable? At
+routine: how can I extend this trip to get as many CAAs as reasonable? At
 first I wasn't sure how much time I would be able to allocate to this trip; 
 at one point I even considered flying to as far away from my destination as
 Texas and driving all the way from there. In the end I had enough time to
@@ -331,7 +331,7 @@ spend a day attempting Tennessee and Kentucky before arriving in Pittsburgh
 the next day.
 
 Being a "car guy", I reserved a fancy car (as close to a sports car as a
-national chain would carry) from the rental place. When I arrived in Nashvile, I
+national chain would carry) from the rental place. When I arrived in Nashville, I
 got a notification that my Jeep Grand Cherokee was ready. This was not quite
 what I had in mind, so I went to the rental counter to see if there were other
 options, or if not, if I could at least get a refund. After searching for a
@@ -363,11 +363,31 @@ waypoint, so I parked quasi-legally to retrieve this one.
 Kentucky
 </p>
 
+Another year, another music festival. This year's was in Brooklyn, which I
+figured would give me a good opportunity to find New York, Pennsylvania, and
+all of the New England. I determined that the shortest path would be to fly
+into Hartford, CT, drive for two days to get seven states, attend the first day
+of the festival, and then make a trip just for PA on the morning of the second
+day of the festival.
+
+Some time after I made that plan, I got the idea to add a prologue of four
+Midwest states, to take full advantage of the time that I had as well as to
+log two year 2000 caches that I needed for my Jasmer grid. This order of
+planning became important later.
+
+I took a late flight into Denver and in the morning drove to the base of Pikes
+Peak for the CAA.
+
 <p style="text-align: center; font-style: italic">
 <img src="caches/caa/co.png" alt="Colorado" title="Colorado">
 <br />
 Colorado
 </p>
+
+I then continued on to Kansas to log [Mingo](https://coord.info/GC30). The next
+day, I found the Kansas CAA, which was probably my second favorite cache of the
+trip. It was on top of a scenic hill, belying the myth that Kansas is perfectly
+flat.
 
 <p style="text-align: center; font-style: italic">
 <img src="caches/caa/ks.png" alt="Kansas" title="Kansas">
@@ -375,11 +395,40 @@ Colorado
 Kansas
 </p>
 
+I found [GC37](https://coord.info/GC37) just after crossing into Missouri.
+Continuing on to the CAA, halfway through a 475 mile day that followed a 530 mile
+day, I started to have some second thoughts.
+I realized that my previous road trips were either limited to two consecutive
+days of driving or involved traveling companions.
+Going solo allowed me to travel at my own (ambitious) pace, but
+the going was getting tedious and tiring. I really did not respect how much of
+the country was, well, countryside. Nevertheless, I was able to keep to
+my schedule and find all the caches without difficulty, so I just kept trucking
+along.
+
+Missouri's CAA seemed like it was in a random location, but it was a pleasant
+surprise to see it was the childhood home of Walt Disney. I was able to read
+about his Dreaming Tree and Son of Dreaming Tree without another soul around.
+
 <p style="text-align: center; font-style: italic">
 <img src="caches/caa/mo.png" alt="Missouri" title="Missouri">
 <br />
 Missouri
 </p>
+
+<fieldset style="width: 75%; margin:auto">
+<legend>Aside: location selection</legend>
+It always interests me to know why a CO chooses a particular location to
+represent their state with that state's CAA cache. Some are obvious (many are in
+state capitals), others are a mystery until I arrive (like Missouri), and some
+elude me entirely. As someone who enjoys
+urban settings, I particularly wished that New York's CAA was in Manhattan and
+Pennsylvania's in Pittsburgh, but both of their respective spots do a good job
+of representing their state. 
+</fieldset>
+
+The next day, Illinois was a quick find, and then I continued on to Indianapolis
+to catch a plane to Connecticut the following day.
 
 <p style="text-align: center; font-style: italic">
 <img src="caches/caa/il.png" alt="Illinois" title="Illinois">
@@ -387,11 +436,25 @@ Missouri
 Illinois
 </p>
 
+It was then that I realized that when I planned the second leg of this trip,
+I had assumed I would be taking a red-eye to Connecticut and would have the
+whole day to drive around. The schedule called for four CAAs in one day, a feat
+that surely only a handful of people have done. However, with a very early
+morning to catch a flight, and said flight landing at 2 p.m., I would not be
+able to stick to this schedule. I had somewhat anticipated this though, by not
+booking any hotels in advance. My plan was to push as far as I could and
+then find the nearest place to sleep. I made the short drive to the Connecticut
+CAA, where I was greeted with humidity and a swarm of mosquitoes.
+
 <p style="text-align: center; font-style: italic">
 <img src="caches/caa/ct.png" alt="Connecticut" title="Connecticut">
 <br />
 Connecticut
 </p>
+
+90 minutes later, after a short but enjoyable hike, I found the Rhode Island
+cache. This trend would continue: all of the CAAs I found on the second leg
+(except Maine) involved hikes in the woods.
 
 <p style="text-align: center; font-style: italic">
 <img src="caches/caa/ri.png" alt="Rhode Island" title="Rhode Island">
@@ -399,11 +462,24 @@ Connecticut
 Rhode Island
 </p>
 
+The original plan called for continuing to Massachusetts, then New Hampshire,
+then into Maine to spend the night.
+However, I wouldn't be able to make it to Concord, MA before nightfall, and I
+was not going to make the hike to the CAA in the dark.
+I found a hotel close to Concord so that I could get an early start the next
+day.
+
+The next morning, I hiked through the foggy scenery to find Massachusetts and
+then spent a little time in wonderful downtown Concord.
+
 <p style="text-align: center; font-style: italic">
 <img src="caches/caa/ma.png" alt="Massachusetts" title="Massachusetts">
 <br />
 Massachusetts
 </p>
+
+New Hampshire was next, my favorite cache of the trip at the end of the longest,
+prettiest hike.
 
 <p style="text-align: center; font-style: italic">
 <img src="caches/caa/nh.png" alt="New Hampshire" title="New Hampshire">
@@ -411,11 +487,41 @@ Massachusetts
 New Hampshire
 </p>
 
+At this point, I was about half a day behind schedule.
+If I had kept following the original itinerary, my next stop would be the Maine
+CAA.
+However, I also wanted to see Acadia National Park, and I would not be able to
+reach that before nightfall.
+Delaying Acadia to tomorrow would only put me further behind schedule, so I
+decided to deviate from the plan.
+I wanted to pack as much into this day as I could.
+This meant swapping Vermont (which was scheduled for tomorrow) and Maine, so I
+could wake up the next day, see Acadia, and then drive straight to Albany, NY.
+But this would also give me a shot at my goal of four CAAs in one day! I sped
+north, through some breathtakingly gorgeous autumn foliage. Vermont was
+slightly difficult, as the trail isn't on Google Maps (fortunately c:geo
+supports several different maps, including offline ones I had saved a long time
+ago) and my GPSr was pointing me tens of feet away from GZ. Nonetheless, I
+was able to quickly log and get back on the road.
+
 <p style="text-align: center; font-style: italic">
 <img src="caches/caa/vt.png" alt="Vermont" title="Vermont">
 <br />
 Vermont
 </p>
+
+I arrived in Augusta, ME just before 9 p.m. This was one of the two caches 
+on this trip that concerned me, because it had gone missing earlier in the month.
+Thankfully, (1) the CO was quick with the replacement (and with responding to
+messages), and (2) I was able to find the best place to park.
+Still, I spent a good ten minutes searching with phone flashlight (note to self:
+always bring a real flashlight if you plan on going caching) before finding the
+container.
+I had done it!
+Four in a single day!
+And not the four closest to each other, either.
+It's very lucky that this was the only CAA that did NOT involve a hike,
+otherwise I would not have been able to pull off this feat.
 
 <p style="text-align: center; font-style: italic">
 <img src="caches/caa/me.png" alt="Maine" title="Maine">
@@ -423,11 +529,55 @@ Vermont
 Maine
 </p>
 
+The next day, I visited Acadia National Park as planned (it was incredibly
+crowded, even on a Thursday) and then drove to Albany for the CAA, complete with
+slugs on the container.
+
 <p style="text-align: center; font-style: italic">
 <img src="caches/caa/ny.png" alt="New York" title="New York">
 <br />
 New York
 </p>
+
+Due to the absurd amount of driving I had done this day, I had almost caught
+up to my original schedule, which called for me to end the day (Thursday) in the Bronx.
+However, I would have arrived after my host was asleep, so at this point I had a
+choice to make. I could get a hotel where I was. I could drive closer to NYC.
+Or I could get _really_ ambitious.
+My original plan was for me to spend all of Friday in NYC, so I would have time
+to settle before attending the first day of the music festival on Friday, then
+drive three hours to the PA CAA cache on Saturday, then turn around and drive
+back to NYC for the second day of the festival.
+Since I wasn't going to be in NYC on Friday morning anyways, what if I found PA
+on Friday instead of Saturday?
+I decided to go for it and drove two hours to Binghamton, putting me at around
+650 miles for the day.
+
+The next day was unquestionably the moment of truth for the entire trip. PA was
+the other cache that concerned me, because logs said it was a long, difficult,
+boggy bushwhack with inaccurate coordinates. Would I even be able to find this
+cache? Would I then be able to drive the three hours to NYC in time to take a
+1.5 hour subway ride to Brooklyn? Why oh why couldn't this cache be in Pittsburgh,
+the city where I grew up and still have family, where I visit every year? I put
+these questions behind me and just focused on what I needed to do.
+The first part of the hike was surprisingly easy and made me wonder if this
+find could be easier than logs had led me to believe.
+However, any semblance of a game trail soon ended, and I had no idea of how to
+proceed.
+I waded through thorns, hopped over logs, stepped in only one puddle, and went
+around in circles, until I ended up at the point where previous logs told me to
+go.
+Here, I didn't see anything.
+I then started looking at photos from logs to see if there were any landmarks
+I could recognize.
+I did notice a double-trunk tree appeared in a lot of photos and I saw one of
+those nearby so I walked over to it.
+I circled and circled but I didn't see anything.
+Running out of ideas, I looked around again and saw a different double-trunk
+tree about 30 feet further away from GZ. Right at its base was a large ammo can.
+Finally!
+All in all it took me about 45 minutes from parking to signing the log and then
+another 10 minutes to walk back to my car.
 
 <p style="text-align: center; font-style: italic">
 <img src="caches/caa/pa.png" alt="Pennsylvania" title="Pennsylvania">
@@ -435,6 +585,9 @@ New York
 Pennsylvania
 </p>
 
-
-
-
+This ended the main caching portion of what I had come to call my
+"indeterminable, insane trip" (because "long, strange trip" was already taken).
+I drove to NYC, attended the festival, and logged a few more caches
+in the Bronx and Manhattan before returning to California.
+Seven days, 12 CAAs, 2700 miles driven, many lessons learned (be ambitious yet
+flexible, bring a flashlight).
